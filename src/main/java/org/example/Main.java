@@ -11,7 +11,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int opcion;
         do {
-            System.out.println("=== GESTOR DE TAREAS ===");
+            System.out.println("=== ORGANIZADOR PERSONAL DE TAREAS ===");
             System.out.println("1. Listar tareas");
             System.out.println("0. Salir");
             System.out.print("Seleccione una opción: ");
@@ -29,3 +29,4 @@ public class Main {
         } while (opcion != 0);
     }
 }
+
